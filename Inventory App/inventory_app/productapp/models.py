@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 import datetime
 # Create your models here.
-
+# Please add product image and handle displaying it in templates 
 class product(models.Model):#ORM established
     name = models.CharField(max_length=55)
     description = models.CharField(max_length=2000)
